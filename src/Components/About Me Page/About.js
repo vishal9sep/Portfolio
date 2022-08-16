@@ -119,10 +119,10 @@ function About() {
             />
           </a>
 
-          <a href="https://getbootstrap.com/">
+          <a href="https://www.postman.com">
             <img
               className="techstackMargin"
-              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
+              src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
               alt="Brand Logo"
               width="60"
               height="60"
