@@ -33,7 +33,7 @@ function Project1({ id }) {
             /> */}
             <img
               className="project__image"
-              src="/images/OverStock.png"
+              src="/images/cabBook.png"
               alt="Health Fusion Project Add Page"
               width="50%"
               height="auto"
@@ -45,7 +45,9 @@ function Project1({ id }) {
         )}
 
         <div data-aos="fade-left" className="project__right">
-          <h3 className="project__title">OverStock Clone</h3>
+          <h3 className="project__title">
+            REST API for Online Cab Booking App
+          </h3>
           <p className="project__description project__body">
             OverStock is a{" "}
             <span className="project__specialText"> American</span> E-Commerce
@@ -64,11 +66,12 @@ function Project1({ id }) {
             {"\n"}built by a team of 5, executed in 5 days.
           </p>
           <p className="project__tech project__body">
-            &gt; Javascript · CSS · HTML
+            &gt; Java · SpringBoot · Hibernate · Spring Data JPA · MySQL · Maven
+            · Swagger UI
           </p>
           <a
             className="project__sourceCode"
-            href="https://github.com/vishal9sep/OverStock-Clone"
+            href="https://github.com/Oneza786/Online-Cab-Booking-App"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="=Website GitHub Repository"
@@ -76,15 +79,15 @@ function Project1({ id }) {
             <FaGithub className="project__githubLogo" size={25} />
             <h3 className="project__sourceCodeText">Source Code</h3>
           </a>
-          <a
+          {/* <a
             className="project__sourceCode"
-            href="https://jade-sopapillas-ac0a87.netlify.app"
+            href="https://github.com/Oneza786/Online-Cab-Booking-App"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="=Website GitHub Repository"
           >
             <h3 className="project__sourceCodeText">Live Demo</h3>
-          </a>
+          </a> */}
         </div>
       </div>
       <DarkWave />

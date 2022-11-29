@@ -27,6 +27,17 @@ function Contact() {
             <span className="contact__text">Vishal Singh</span>
           </a>
         </div>
+        <div className="contact__option">
+          <FaLinkedin className="contact__logo" size={45} />
+          <a
+            href="tel:9476300091"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="my Linkedin"
+          >
+            <span className="contact__text">+91 9476300091</span>
+          </a>
+        </div>
       </div>
       <LightWave />
     </section>
