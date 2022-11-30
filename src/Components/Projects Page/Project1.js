@@ -49,21 +49,30 @@ function Project1({ id }) {
             REST API for Online Cab Booking App
           </h3>
           <p className="project__description project__body">
-            OverStock is a{" "}
-            <span className="project__specialText"> American</span> E-Commerce
-            platform.{" "}
-            <span className="project__specialText">OverStock provides you</span>{" "}
-            with many varieties of furniture and household items and allows our
-            end users to choose and purchase any product which is listed on the
-            website. Users can sort products based on prices and ratings{" "}
-            <span className="project__specialText">We are giving our </span>100%
-            to built it same as OverStock.{" "}
-            <span className="project__specialText">There are lots </span>
-            of features on this website we have built.
+            We have create a{" "}
+            <span className="project__specialText">REST API</span> for online
+            Cab Booking Application which can be used by{" "}
+            <span className="project__specialText">Customers</span> to login
+            into their profile,{" "}
+            <span className="project__specialText">
+              update their information
+            </span>{" "}
+            and book cabs, by a driver to login and update their details along
+            with their cab details and accept a ride from the customer.update
+            their information.
+            <span className="project__specialText"> All this is</span> over
+            looked by the admin who can also login and update their information
+            as well as access the{" "}
+            <span className="project__specialText">
+              {" "}
+              data in the application.
+            </span>{" "}
+            We have implemented data and user validation at every step, for
+            every user.{" "}
             <span className="project__specialText">
               A collaborative project
-            </span>
-            {"\n"}built by a team of 5, executed in 5 days.
+            </span>{" "}
+            built by a team of 5, executed in 5 days.
           </p>
           <p className="project__tech project__body">
             &gt; Java · SpringBoot · Hibernate · Spring Data JPA · MySQL · Maven
